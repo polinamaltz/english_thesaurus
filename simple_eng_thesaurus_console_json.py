@@ -29,5 +29,5 @@ output = give_definition(input_word)
 if type(output) == list:		#in case of many definitions
 	for item in output:
 		print(item)
-else:			#in case of one difinition
+else:				#in case of one definition
 	print(output)
